@@ -2,21 +2,45 @@
 {{template "header.html"}}
 
 
-<div class="row">
-  <div class="col-md-3">
-    <img src="/public/img/idb.gif " alt="經濟部工業局" align="middle" height="60">
-  </div>
-  <div class="col-md-6">6</div>
-  <div class="col-md-3">3</div>
-</div>
 
-<div class="row">
-  <div class ="col-md-12" style="background-color:blue; height:5px"></div>
-</div>
+  <div class ="row">
+    <div class="col-md-3">
+      <img src="/public/img/idb.gif " alt="經濟部工業局" align="middle" height="60px">
+    </div>
+  </div> 
+  <div class ="row header">
+    <div class ="col-md-10"></div>
+    <div class ="col-md-2">
+      <div class="btn-group">
+        <div class="btn-group">
+          <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-wrench">工具</span>
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu box" >
+              <li><a href="#">
+                  <span class="glyphicon glyphicon-floppy-save">儲存</span> 
+              </a></li>
+              <li><a href="#">
+                  <span class="glyphicon glyphicon-eye-open">預覽</span> 
+              </a></li>
+              <li><a href="#">
+                  <span class="glyphicon glyphicon-download-alt">下載</span> 
+              </a></li>
+          </ul>
+        </div>
+        <button type="button" class ="btn btn-danger">
+          <span class="glyphicon glyphicon-log-out">登出</span>
+        </button>
+      </div>
+      
+    </div>
+  </div> 
+
 
 
 <div class="row full">
-  <div class="col-md-2" style="height:100%; text-align:center; background:linear-gradient(to right, white 30%,LightSkyBlue)">left</div>
+  <div class="col-md-2 full-side">left</div>
       
   <div class="col-md-10"></div>
 </div>
